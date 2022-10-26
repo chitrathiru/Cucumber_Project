@@ -1,0 +1,74 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-10-20T19:47:01.348Z",
+        "line": 3,
+        "name": "Hooks scenario explanation",
+        "description": "",
+        "id": "to-explain-hooks;hooks-scenario-explanation",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1815000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Thanos has inifinite stone",
+            "match": {
+              "location": "stepdefinition.Explainhook.thanos_has_inifinite_stone()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 190000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Thanos snap his finger",
+            "match": {
+              "location": "stepdefinition.Explainhook.thanos_snap_his_finger()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 145000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Half of the living things died",
+            "match": {
+              "location": "stepdefinition.Explainhook.half_of_the_living_things_died()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Hooks"
+          }
+        ]
+      }
+    ],
+    "name": "To explain hooks",
+    "description": "",
+    "id": "to-explain-hooks",
+    "keyword": "Feature",
+    "uri": "file:featureFiles/cucumberhook.feature",
+    "tags": [
+      {
+        "name": "@Hooks",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
